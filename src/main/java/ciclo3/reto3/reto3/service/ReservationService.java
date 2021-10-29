@@ -108,7 +108,7 @@ public class ReservationService {
         return reaux;
     }
 
-    public StatusReservas reporteStatusServicio (){
+    public StatusReservas getreporteStatusServicio (){
         List<Reservation>completed= reservationRepository.ReservationStatusRepositorio("completed");
         List<Reservation>cancelled= reservationRepository.ReservationStatusRepositorio("cancelled");
         

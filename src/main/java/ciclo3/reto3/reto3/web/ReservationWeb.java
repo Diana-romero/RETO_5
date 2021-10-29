@@ -61,7 +61,7 @@ public class ReservationWeb {
     }
     @GetMapping("/report-status")
     public StatusReservas getReservas(){
-        return reservationService.reporteStatusServicio();
+        return reservationService.getreporteStatusServicio();
     }
     
     @GetMapping("/report-dates/{dateOne}/{dateTwo}")

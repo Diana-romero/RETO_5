@@ -16,12 +16,9 @@ public class contadorClient {
     private long total;
     private Client client;
 
-    public contadorClient(long total) {
+    public contadorClient(long total, Client client) {
         this.total = total;
-    }
-
-    public contadorClient(Long aLong, Client client) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this. client = client;
     }
 
     public long getTotal() {
